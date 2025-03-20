@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Bubbles&family=Shrikhand&display=swap" rel="stylesheet">
+    <title>Kisses?</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Love Calculator</h1>
+        <label for="debtType">What does Tom owe Nadia?</label>
+        <select id="debtType" name="debtType">
+            <option value="" disabled selected>Select One 👇🏿</option>
+            <option value="kisses">Kisses</option>
+            <option value="cuddles">Cuddles</option>
+            <option value="messina">Messina</option>
+            <option value="dollars">Dollars</option>          
+        </select>
+        <br/>
+        <label for="hours">How many hours has it been since Tom said I love you:</label>
+        <input type="number" id="hours"/>
+        <br/>
+        <button id="calculate">Calculate</button>
+        <br/>
+        <label id="outcomeLabel" for="outcome">Outcome:</label>
+        <p id="outcome"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
